@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/sora">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/device_name"
+        android:textSize="18sp"/>
+
+        <TextView
+        android:id="@+id/textview_deviceName"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+            android:layout_weight="1"
+        android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/textview_deviceAddress"
+            android:layout_width="180sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/button_connect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/connect"
+            android:layout_gravity="end"
+            android:textSize="18sp"
+            android:backgroundTint="#00bfff"/>
+
+        <Button
+            android:id="@+id/button_disconnect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/disconnect"
+            android:layout_gravity="end"
+            android:textSize="18sp"
+            android:backgroundTint="#dc143c"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_reload"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/reload"
+        android:textSize="11sp"
+        android:backgroundTint="#00fa9a" />
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="480dp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp"/>
+
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:max="10"
+        android:progress="0"
+        android:progressDrawable="@drawable/custum_seek"
+        android:thumb="@drawable/hayabusatouka" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_adLow"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="#3cb371"
+            android:text="@string/advanceLow"
+            android:textSize="25sp"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/button_adMid"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/advanceMid"
+            android:textSize="25sp"
+            android:backgroundTint="#3cb371"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/button_adHigh"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/advanceHigh"
+            android:textSize="25sp"
+            android:backgroundTint="#3cb371"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/button_bkLow"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/backLow"
+            android:textSize="25sp"
+            android:backgroundTint="#ff1493"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:id="@+id/button_bkMid"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/backMid"
+            android:textSize="25sp"
+            android:backgroundTint="#ff1493"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:id="@+id/button_bkHigh"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/backHigh"
+            android:textSize="25sp"
+            android:backgroundTint="#ff1493"
+            tools:ignore="ButtonStyle" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/button_TrainStop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:text="@string/TrainStop"
+            android:textSize="30sp"
+            android:backgroundTint="#ff0000"/>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+</LinearLayout>
+
+
+
+

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">IotTrainProject</string>
+
+    <!--MainActivity トースト-->
+    <string name="bluetooth_is_not_supported">Bluetoothはサポートされていません。</string>
+    <string name="bluetooth_is_not_working">Bluetoothを有効にできませんでした。</string>
+
+    <!--MainActivity メニュー-->
+    <string name="search">検索</string>
+
+    <!--MainActivity ラベル-->
+    <string name="device_name">Device:</string>
+    <string name="device_address">Address:</string>
+    <string name="connect">接続</string>
+    <string name="disconnect">切断</string>
+    <string name="Maneuver">操縦</string>
+    <string name="Departure">発車</string>
+    <string name="advanceLow">前進低速</string>
+    <string name="advanceMid">前進中速</string>
+    <string name="advanceHigh">前進高速</string>
+    <string name="backLow">後退低速</string>
+    <string name="backMid">後退中速</string>
+    <string name="backHigh">後退高速</string>
+    <string name="TrainStop">停車</string>
+    <string name="reload">ブラウザ更新</string>
+
+    <!--DeviceActivity トースト-->
+    <string name="unknown_device">Unknown device</string>
+
+    <!--DeviceActivity メニュー-->
+    <string name="scan">検索</string>
+    <string name="stop">中止</string>
+
+</resources>
